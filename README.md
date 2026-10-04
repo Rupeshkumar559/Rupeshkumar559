@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- 🌟 CUSTOM PHOTO & NAME BANNER -->
-  <img src="banner.png" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
+  <!-- 🚁 LIVE ANIMATED MORPHING BANNER (PHOTO ⟷ DRONE) -->
+  <img src="banner.svg" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
 
   <br/><br/>
 
