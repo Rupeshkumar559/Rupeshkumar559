@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- 🚁 LIVE ANIMATED MORPHING BANNER (PHOTO ⟷ DRONE) -->
-  <img src="banner.svg" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
+  <img src="banner.gif" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:10B981&height=180&section=header&text=RUPESH%20KUMAR&fontSize=42&fontColor=ffffff&animation=twinkling&desc=Embedded%20Systems%20|%20Robotics%20|%20IoT%20Enthusiast&descSize=18" width="100%" alt="Banner" />
 
   <br/><br/>
 
