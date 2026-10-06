@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 340" width="100%" height="100%">
+  <defs>
+    <style>
+      .terminal-bg { fill: #0A101F; stroke: #1E293B; stroke-width: 1.5px; rx: 12px; }
+      .header-bar { fill: #0F172A; rx: 12px; }
+      .dot-red { fill: #EF4444; }
+      .dot-yellow { fill: #F59E0B; }
+      .dot-green { fill: #10B981; }
+      .title-text { fill: #64748B; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 13px; font-weight: 500; }
+      .prompt { fill: #22D3EE; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 14px; font-weight: 600; }
+      .cmd { fill: #F8FAFC; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 14px; }
+      .output-name { fill: #38BDF8; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 15px; font-weight: 700; }
+      .output-role { fill: #A78BFA; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 14px; }
+      .output-info { fill: #94A3B8; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 13.5px; }
+      .output-stack { fill: #10B981; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 13.5px; }
+      .output-status { fill: #F1F5F9; font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; font-size: 13.5px; }
+      .cursor { fill: #22D3EE; animation: blink 1s infinite; }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="848" height="338" class="terminal-bg" />
+
+  <!-- Terminal Header -->
+  <path d="M 1 13 Q 1 1 13 1 L 837 1 Q 849 1 849 13 L 849 40 L 1 40 Z" fill="#0D1527" stroke="#1E293B" stroke-width="1px" />
+  
+  <!-- Window Controls -->
+  <circle cx="24" cy="20" r="6" class="dot-red" />
+  <circle cx="44" cy="20" r="6" class="dot-yellow" />
+  <circle cx="64" cy="20" r="6" class="dot-green" />
+  
+  <!-- Terminal Title -->
+  <text x="425" y="24" text-anchor="middle" class="title-text">rupesh@robotics-workstation: ~</text>
+
+  <!-- Content Lines -->
+  <!-- Line 1: whoami -->
+  <text x="28" y="75" class="prompt">rupesh@embedded:~$ <tspan class="cmd">whoami</tspan></text>
+  <text x="45" y="100" class="output-name">⚡ RUPESH KUMAR</text>
+
+  <!-- Line 2: role -->
+  <text x="28" y="132" class="prompt">rupesh@embedded:~$ <tspan class="cmd">cat role.txt</tspan></text>
+  <text x="45" y="157" class="output-role">🤖 Embedded Systems &amp; Robotics Enthusiast</text>
+
+  <!-- Line 3: education & location -->
+  <text x="28" y="189" class="prompt">rupesh@embedded:~$ <tspan class="cmd">cat education.info</tspan></text>
+  <text x="45" y="214" class="output-info">🎓 B.Tech in Electronics &amp; Communication Engg. | 📍 Jalandhar, India</text>
+
+  <!-- Line 4: toolchain & stack -->
+  <text x="28" y="246" class="prompt">rupesh@embedded:~$ <tspan class="cmd">echo $TECH_STACK</tspan></text>
+  <text x="45" y="271" class="output-stack">🛠️ C | C++ | Python | Arduino IDE | Fusion 360 | Git | Embedded Hardware</text>
+
+  <!-- Line 5: active prompt with cursor -->
+  <text x="28" y="304" class="prompt">rupesh@embedded:~$ <tspan class="cmd">run innovations.sh</tspan></text>
+  <rect x="238" y="291" width="9" height="17" class="cursor" />
+</svg>
