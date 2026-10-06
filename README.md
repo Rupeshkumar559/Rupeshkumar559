@@ -39,7 +39,7 @@
 
 ### 🖥️ Robotics Workstation Terminal
 
-<div align="center">
+<div align="dark.svg">
   <img src="dark.svg" width="100%" alt="Rupesh Workstation Terminal" />
 </div>
 
