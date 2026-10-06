@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" width="1400" height="700">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02050b"/><stop offset=".5" stop-color="#061426"/><stop offset="1" stop-color="#16091f"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#00eaff" stop-opacity=".18"/><stop offset="1" stop-color="#00eaff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge"><stop stop-color="#00eaff"/><stop offset=".5" stop-color="#6d7cff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#4b7690" stroke-opacity=".10"/></pattern>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.s{font-family:Inter,Arial,sans-serif}.c{fill:#00eaff}.w{fill:#eef8ff}.mu{fill:#7891a6}.g{fill:#65ffb0}.v{fill:#a992ff}.p{fill:#ff62dc}</style>
+  <clipPath id="clip"><rect x="0" y="0" width="1400" height="700" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1400" height="700" fill="url(#bg)"/><rect width="1400" height="700" fill="url(#grid)"/>
+<circle cx="1100" cy="260" r="300" fill="url(#halo)" filter="url(#soft)"/>
+<!-- circuit traces -->
+<g fill="none" stroke="#00eaff" stroke-opacity=".25" stroke-width="1.5"><path d="M0 108H160V76H310"/><path d="M1400 112H1260V78H1160"/><path d="M0 625H180V590H300"/><path d="M1400 620H1210V585H1100"/></g>
+<g fill="#00eaff"><circle cx="160" cy="108" r="3"/><circle cx="310" cy="76" r="3"/><circle cx="1260" cy="112" r="3"/><circle cx="1160" cy="78" r="3"/></g>
+<!-- header -->
+<text x="48" y="48" class="m c" font-size="13" letter-spacing="4">RUPESH // ECE-LAB // NODE 2512103</text>
+<text x="1352" y="48" text-anchor="end" class="m mu" font-size="11" letter-spacing="2">SECURE SESSION / ONLINE</text>
+<line x1="48" y1="70" x2="1352" y2="70" stroke="url(#edge)" stroke-opacity=".45"/>
+<!-- identity card -->
+<rect x="48" y="100" width="390" height="540" rx="20" fill="#07111d" fill-opacity=".88" stroke="#1c4057"/>
+<rect x="49" y="101" width="388" height="4" rx="2" fill="url(#edge)"/>
+<text x="78" y="137" class="m mu" font-size="10" letter-spacing="3">IDENTITY / PROFILE</text>
+<!-- holographic chip -->
+<g transform="translate(78 166)" filter="url(#glow)"><circle cx="72" cy="72" r="64" fill="#061b28" stroke="#00eaff" stroke-width="2"/><circle cx="72" cy="72" r="45" fill="none" stroke="#00eaff" stroke-opacity=".35" stroke-dasharray="4 7"/><path d="M72 17V127M17 72H127M32 32L112 112M112 32L32 112" stroke="#00eaff" stroke-opacity=".35"/><text x="72" y="78" text-anchor="middle" class="m c" font-size="25" font-weight="700">ECE</text></g>
+<text x="220" y="195" class="s w" font-size="25" font-weight="800">RUPESH KUMAR</text>
+<text x="220" y="221" class="m c" font-size="12">EMBEDDED • ROBOTICS • ECE</text>
+<text x="220" y="246" class="m mu" font-size="10">BUILDING HARDWARE THAT MOVES</text>
+<line x1="78" y1="274" x2="408" y2="274" stroke="#18364a"/>
+<text x="78" y="304" class="m mu" font-size="10" letter-spacing="3">CORE STACK</text>
+<text x="78" y="335" class="m w" font-size="13">C / C++</text><text x="190" y="335" class="m w" font-size="13">ESP32</text><text x="290" y="335" class="m w" font-size="13">ARDUINO</text>
+<text x="78" y="362" class="m w" font-size="13">PYTHON</text><text x="190" y="362" class="m w" font-size="13">FUSION 360</text><text x="320" y="362" class="m w" font-size="13">GIT</text>
+<text x="78" y="410" class="m mu" font-size="10" letter-spacing="3">FOCUS CHANNELS</text>
+<g class="m" font-size="11"><rect x="78" y="430" width="94" height="28" rx="14" fill="#00eaff" fill-opacity=".08" stroke="#00eaff" stroke-opacity=".55"/><text x="125" y="448" text-anchor="middle" class="c">ROBOTICS</text><rect x="184" y="430" width="70" height="28" rx="14" fill="#a992ff" fill-opacity=".08" stroke="#a992ff" stroke-opacity=".55"/><text x="219" y="448" text-anchor="middle" class="v">IoT</text><rect x="266" y="430" width="70" height="28" rx="14" fill="#ff62dc" fill-opacity=".08" stroke="#ff62dc" stroke-opacity=".55"/><text x="301" y="448" text-anchor="middle" class="p">VLSI</text></g>
+<text x="78" y="505" class="m g" font-size="11">● SYSTEM READY</text><text x="408" y="505" text-anchor="end" class="m mu" font-size="10">V6.0 / ECE-LAB</text>
+<path d="M78 535H408" stroke="#17384b"/><text x="78" y="562" class="m mu" font-size="10">STATUS</text><text x="408" y="562" text-anchor="end" class="m c" font-size="10">BUILD • TEST • ITERATE</text>
+<text x="78" y="598" class="m mu" font-size="10">SIGNAL</text><rect x="128" y="590" width="180" height="7" rx="3" fill="#12283a"/><rect x="128" y="590" width="166" height="7" rx="3" fill="#00eaff"/><text x="408" y="598" text-anchor="end" class="m c" font-size="10">92%</text>
+<!-- terminal -->
+<rect x="466" y="100" width="886" height="540" rx="20" fill="#03080e" fill-opacity=".92" stroke="#21455d"/>
+<rect x="466" y="100" width="886" height="48" rx="20" fill="#07131f"/>
+<circle cx="492" cy="124" r="6" fill="#ff5f57"/><circle cx="513" cy="124" r="6" fill="#febc2e"/><circle cx="534" cy="124" r="6" fill="#28c840"/>
+<text x="570" y="129" class="m mu" font-size="11">rupesh@ece-lab:~</text><text x="1320" y="129" text-anchor="end" class="m" fill="#46677f" font-size="10">/dev/ttyRUPESH</text>
+<!-- command area -->
+<text x="510" y="188" class="m c" font-size="14">$ whoami</text><text x="510" y="214" class="m w" font-size="18">RUPESH KUMAR</text>
+<text x="510" y="252" class="m c" font-size="14">$ cat role.txt</text><text x="510" y="278" class="m w" font-size="15">Embedded Systems &amp; Robotics Enthusiast</text>
+<text x="510" y="316" class="m c" font-size="14">$ cat education.info</text><text x="510" y="342" class="m w" font-size="14">B.Tech • Electronics &amp; Communication Engineering</text><text x="510" y="363" class="m mu" font-size="12">CTIEMT • Jalandhar, India</text>
+<text x="510" y="401" class="m c" font-size="14">$ echo $TECH_STACK</text><text x="510" y="427" class="m w" font-size="13">C | C++ | Python | Arduino | ESP32 | Fusion 360 | Git</text>
+<text x="510" y="466" class="m c" font-size="14">$ ./innovations.sh</text><text x="510" y="492" class="m g" font-size="13">[ OK ] initializing hardware mindset...</text><text x="510" y="516" class="m g" font-size="13">[ OK ] building • testing • iterating...</text><text x="510" y="540" class="m v" font-size="13">[ RUN ] next_project --mode=experimental</text><text x="510" y="578" class="m c" font-size="14">$ <tspan opacity=".9">█</tspan></text>
+<!-- right HUD inside terminal -->
+<g transform="translate(1080 180)">
+<text x="0" y="0" class="m mu" font-size="9" letter-spacing="2">LIVE SIGNAL <tspan class="g">● LIVE</tspan></text>
+<rect x="0" y="10" width="160" height="72" rx="8" fill="#06131f" stroke="#123b50"/>
+<line x1="0" y1="46" x2="160" y2="46" stroke="#1d536b" stroke-opacity=".8"/>
+<path d="M0 46 L18 46 L28 20 L39 62 L51 34 L65 46 L83 46 L95 8 L108 67 L120 39 L137 46 L160 46" fill="none" stroke="#00eaff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="18 142" filter="url(#glow)">
+  <animate attributeName="stroke-dashoffset" from="160" to="0" dur="1.7s" repeatCount="indefinite"/>
+</path>
+<path d="M0 46 L18 46 L28 20 L39 62 L51 34 L65 46 L83 46 L95 8 L108 67 L120 39 L137 46 L160 46" fill="none" stroke="#00eaff" stroke-width="1" stroke-opacity=".22"/>
+<circle cx="0" cy="46" r="4" fill="#65ffb0" filter="url(#glow)">
+  <animate attributeName="cx" values="0;28;39;51;65;95;108;120;137;160" dur="1.7s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="46;20;62;34;46;8;67;39;46;46" dur="1.7s" repeatCount="indefinite"/>
+</circle>
+<text x="0" y="98" class="m mu" font-size="8">RX  2.4GHz</text><text x="160" y="98" text-anchor="end" class="m c" font-size="8">SYNC  100%</text>
+</g>
+<g transform="translate(1080 290)"><text x="0" y="0" class="m mu" font-size="9" letter-spacing="2">SYSTEM LOAD</text><rect x="0" y="22" width="180" height="6" rx="3" fill="#102536"/><rect x="0" y="22" width="128" height="6" rx="3" fill="#a992ff"/><text x="180" y="28" text-anchor="end" class="m v" font-size="10">71%</text><rect x="0" y="50" width="180" height="6" rx="3" fill="#102536"/><rect x="0" y="50" width="154" height="6" rx="3" fill="#00eaff"/><text x="180" y="56" text-anchor="end" class="m c" font-size="10">86%</text></g>
+<g transform="translate(1080 395)"><text x="0" y="0" class="m mu" font-size="9" letter-spacing="2">BUILD PIPELINE</text><circle cx="8" cy="28" r="4" fill="#65ffb0"/><circle cx="58" cy="28" r="4" fill="#65ffb0"/><circle cx="108" cy="28" r="4" fill="#00eaff"/><circle cx="158" cy="28" r="4" fill="#263c4d"/><path d="M12 28H54M62 28H104M112 28H154" stroke="#35576b"/><text x="0" y="55" class="m mu" font-size="9">DESIGN</text><text x="48" y="55" class="m mu" font-size="9">BUILD</text><text x="100" y="55" class="m mu" font-size="9">TEST</text><text x="151" y="55" class="m mu" font-size="9">SHIP</text></g>
+<!-- bottom accent -->
+<path d="M466 622H1352" stroke="url(#edge)" stroke-width="2" opacity=".5"/><text x="466" y="670" class="m mu" font-size="10" letter-spacing="2">ECE // EMBEDDED // ROBOTICS // FUTURE SYSTEMS</text><text x="1352" y="670" text-anchor="end" class="m c" font-size="10">[ CONNECTED ]<animate attributeName="opacity" values="1;.45;1" dur="1.8s" repeatCount="indefinite"/></text>
+<!-- scanline --> <rect y="0" width="1400" height="2" fill="#00eaff" opacity=".08"><animate attributeName="y" from="0" to="700" dur="5s" repeatCount="indefinite"/></rect>
+</g></svg>
