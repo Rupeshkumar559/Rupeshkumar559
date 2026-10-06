@@ -165,7 +165,7 @@ Motto          : "Where bytes govern physics and code powers mechanics."
 <div align="">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="github-snake-dark.svg" />
     <img alt="Snake Eating Contributions" src="github-snake-dark.svg" />
   </picture>
 </div>
