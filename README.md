@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 🚀 MAIN BANNER -->
-  <img src="banner.svg" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
+  <img src="banner..svg" width="100%" alt="RUPESH KUMAR - Embedded Systems | Robotics | IoT Enthusiast" />
 
   <br/><br/>
 
