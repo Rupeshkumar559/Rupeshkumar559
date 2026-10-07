@@ -5,12 +5,7 @@
 
   <br/><br/>
 
-  <!-- ⚡ DYNAMIC LIVE TYPING ANIMATION -->
-  <a href="https://github.com/RUPESHKUMAR559">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vCenter=true&width=700&height=50&lines=⚡+B.Tech+ECE+Engineer+%7C+Jalandhar%2C+India;🤖+Embedded+Systems+%26+Autonomous+Robotics;💻+Low-Level+Firmware+Developer+(C%2FC%2B%2B);📐+3D+Robotics+CAD+Designer+(Fusion+360);📡+IoT+%26+Hardware-Software+Architect;💡+Turning+Silicon+%26+Code+into+Intelligent+Machines" alt="Typing Animation" />
-  </a>
-
-  <br/>
+  [![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1200&color=00F0FF&center=true&vCenter=true&width=700&height=50&lines=%E2%9A%A1+B.Tech+ECE+Engineer+%7C+Jalandhar%2C+India;%F0%9F%A4%9B+Embedded+Systems+%26+Autonomous+Robotics;%F0%9F%92%BB+Low-Level+Firmware+Developer+(C%2FC%2B%2B);%F0%9F%93%90+3D+Robotics+CAD+Designer+(Fusion+360);%F0%9F%93%A1+IoT+%26+Hardware-Software+Architect;%F0%9F%92%A1+Turning+Silicon+%26+Code+into+Intelligent+Machines)](https://github.com/RUPESHKUMAR559)
 
   <!-- 🌐 SOCIAL COMMAND CENTER -->
   <a href="https://www.linkedin.com/in/rupesh-kumar-2b116b428/" target="_blank">
